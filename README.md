@@ -10,9 +10,6 @@
 A stopwatch is a timepiece designed to measure the amount of time that elapses between its activation and deactivation.
 <br>
 
-![stopwatcOFF](../images/2fd1564d-a67b-466a-ba25-35e5668c34a9.jpg)
-
-![stopwatcONN](../images/232343d0-23d1-43e4-a6af-77c122b26aea.jpg)
 
 
 
