@@ -3,9 +3,10 @@
 #include <util/delay.h>
 
 //define the global vars --- g refer to -> global
-unsigned char g_seconds=0; //seconds counter
-unsigned char g_minutes=0; //minutes counter
-unsigned char g_hours=0; //hours counter
+//volatile -> to prevent the compiler from applying any optimization on the code
+volatile unsigned char g_seconds=0; //seconds counter
+volatile unsigned char g_minutes=0; //minutes counter
+volatile unsigned char g_hours=0; //hours counter
 
 void TIMER1_Init(void){
 	/* Timer mode
